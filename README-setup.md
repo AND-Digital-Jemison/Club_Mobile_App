@@ -14,7 +14,7 @@ Requirements:
 
 **amplify install:**
 ```zsh
-$npm install -g @aws-amplify/cli
+$ npm install -g @aws-amplify/cli
 ```
 **amplify setup:**
 ```zsh
@@ -42,7 +42,7 @@ done
 
 **amplify initialization** - in your app root dir
 ```zsh
-$amplify init
+$ amplify init
 ```
 - set things until the FRAMEWORK we are using after that is everything default except the last question
 - choose the profile you want to use is your amplify profile with the admin user and AWS access credentials we have created in previous section → choose that profile
@@ -53,9 +53,9 @@ when this is finished we have initialized our project in cloud, where we can use
 
 ![Jemison%20App%20setup%20f57bb89a2abe46dd9fc900bd0742374b/Untitled%201.png](Jemison%20App%20setup%20f57bb89a2abe46dd9fc900bd0742374b/Untitled%201.png)
 
-- do 
+do 
 ```zsh
-$amplify status
+$ amplify status
 ```
  and you will see we haven't setup any other AWS resources to our app
 
@@ -65,12 +65,12 @@ $amplify status
 
 **Install RN**
 ```zsh
-$npm install -g react-native-cli
+$ npm install -g react-native-cli
 ```
 
 **initialize the project - in a folder of your choice**
 ```zsh
-$react-native init JemisonMobileApp
+$ react-native init JemisonMobileApp
 ```
 
 Open the folder in your VS Code
@@ -79,13 +79,13 @@ you need 2 terminal windows in VS Code
 
 in 1st - run your app
 ```zsh
-$react-native start
+$ react-native start
 ```
 
 in 2nd - run one of the the emulators
 ```zsh
-$react-native run-android
-$react-native run-ios
+$ react-native run-android
+$ react-native run-ios
 ```
 
 at this point we should be able to at least show some default window in the emulator , but here is where problems usually starts :D google the errors, add them in here if you get something new.
@@ -134,14 +134,14 @@ follow this guide to add ANDROID SDK path to your terminal **global PATH in zshr
 
 - go to your **/ios/** dir in terminal and run commands
     ```zsh
-    $pod init
+    $ pod init
     ```
     ```zsh
-    $pod install
+    $ pod install
     ```
   - if you get error during install you might need to update the existing pods
   ```zsh
-  $pod repo update
+  $ pod repo update
   ```
 
   i had to update and after that i did pod install again
@@ -154,12 +154,12 @@ follow this guide to add ANDROID SDK path to your terminal **global PATH in zshr
 
   if you need to first install cocoapods manager
   ```zsh
-  $sudo gem install cocoapods --pre
+  $ sudo gem install cocoapods --pre
   ```
 
   then install pods
   ```zsh
-  $pod install
+  $ pod install
   ```
 
   after these steps I was able to run both android and ios emulators.
