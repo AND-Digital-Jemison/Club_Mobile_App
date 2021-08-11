@@ -13,9 +13,9 @@ Requirements:
 [](https://docs.amplify.aws/cli/start/install)
 
 **amplify install:**
-
-$ _npm install -g @aws-amplify/cli_
-
+```zsh
+$npm install -g @aws-amplify/cli
+```
 **amplify setup:**
 
 $ _amplify configure_
